@@ -1,5 +1,5 @@
 # Mercado-liebre
-Estructura de un sitio web
+<h1>Estructura de un sitio web</h1>
 Práctica Integradora
 Objetivo
 A lo largo de este módulo pondremos en práctica todos los conocimientos que hemos
