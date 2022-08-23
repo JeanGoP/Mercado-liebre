@@ -42,11 +42,20 @@ header div.logo {
     padding: 10px;
 }
 
-header .form {
+div .logo {
+    padding: 10px;
+}
+
+div .form {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 2px;
     font-size: 11px;
+}
+
+div form .espacio {
+    padding: 10px;
 }
 
 header nav {
@@ -221,5 +230,9 @@ article div.main-article {
     }
     a {
         padding: 10px 10px;
+    }
+    input {
+        display: flex;
+        display: inline-block;
     }
 }
