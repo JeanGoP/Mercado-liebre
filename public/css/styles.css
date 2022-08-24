@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #ebebeb;
+    background-color: #FFF;
 }
 
 h3 {
@@ -46,16 +46,45 @@ div .logo {
     padding: 10px;
 }
 
-div .form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 2px;
-    font-size: 11px;
+.contenedor-registro {
+    display: block;
+    justify-content: center;
+    width: 50%;
+    background-color: #ebebeb;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
-div form .espacio {
+.nombreusuario,
+.nombreapellido,
+.inputpassword,
+.alineacion {
+    border-radius: 6px;
+    border: none;
+    height: 30px;
+    margin-top: 5px;
+    padding: 5px;
+    width: 90%;
+    margin: 1rem;
+}
+
+.boton {
+    border-radius: 6px;
+    border: none;
+    height: 30px;
+    margin-top: 12px;
     padding: 10px;
+    width: 90%;
+    margin: 1rem;
+    background-color: #1259c3;
+    color: white;
+}
+
+.alineacionlabel {
+    width: 90%;
+    padding: 12px;
+    font-weight: bold;
 }
 
 header nav {
@@ -182,6 +211,23 @@ article div.main-article {
     border-top: 1px solid #ebebeb;
     position: relative;
     padding: 15px;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    color: #666;
+    padding: 10px 0 0 0;
+}
+
+.footer-container {
+    display: block;
+    margin: 15px 0;
+    padding: 24px;
+}
+
+.lineaFinal {
+    margin: 6px;
 }
 
 @media (max-width: 360px) {
