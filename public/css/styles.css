@@ -188,6 +188,21 @@ h3,
     background-color: #0022AA;
 }
 
+.credit-card i:hover {
+    color: #EAC926;
+    ;
+}
+
+.gift i:hover {
+    color: #EAC926;
+    ;
+}
+
+.shield i:hover {
+    color: #EAC926;
+    ;
+}
+
 section.banner img {
     width: 100%;
 }
