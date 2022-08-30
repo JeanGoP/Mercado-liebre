@@ -298,6 +298,9 @@ footer {
     nav {
         display: none;
     }
+    .margin {
+        display: none;
+    }
 }
 
 @media (min-width: 361px) {
