@@ -42,11 +42,19 @@ header .form {
 .input {
     width: 50%;
     height: 30px;
+    border-radius: 6px;
+    margin: auto;
+}
+
+.margin {
+    margin: auto;
 }
 
 .submit {
     width: 10%;
     height: 30px;
+    border-radius: 6px;
+    margin: auto;
 }
 
 header div.logo {
